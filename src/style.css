@@ -63,14 +63,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #FFF;
+    background-color: #ffffff85;
     width: 500px;
     border-radius: 8px;
+    padding: 16px;
 }
 
 .main h2{
-    margin: 16px 0;
     font-size: 29px;
+    margin-bottom: 16px;
 }
 
 .main span{
@@ -80,3 +81,42 @@
 }
 
 
+@media (max-width: 740px){
+    .title{
+        font-size: 60px;
+    }
+
+    .main{
+        width: 350px;
+    }
+
+    .main h2{
+        font-size: 25px;
+    }
+    
+    .main span{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 550px){
+    .title{
+        font-size: 40px;
+    }
+
+    .containerInput{
+        width: 250px;
+    }
+
+    .containerInput input{
+        width: 200px;
+    }
+
+    .main{
+        width: 250px;
+    }
+
+    .main h2{
+        font-size: 22px;
+    }
+}
